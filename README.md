@@ -6,7 +6,7 @@ The board I am using is an ESP32-WROOM-32. ![ESP32 WROOM 38 PIN PINOUT](https://
 
 ## Circuit Guide
 Do not alter connections among the motor driver unless you know what you are doing. The key components you need to worry about would be using the proper GPIO pins for I/O. 
-The motor driver and the motor has a separate power supply on the end of the board, use a AC-DC power block with a barrel connector *make sure it only supplies up to 9V*
+The motor driver and the motor havn a separate power supply on the end of the board, use a AC-DC power block with a barrel connector *make sure it only supplies up to 9V*
 
 ## Parameters to tweak
 | Parameter        | Purpose           | Range  |
